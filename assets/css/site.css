@@ -208,6 +208,8 @@ a:hover { text-decoration-thickness: 2px; }
 
 .patents { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); color: var(--graphite); }
 .patents strong { color: var(--ink); font-weight: 600; }
+.patents + .patents { margin-top: 0.6rem; padding-top: 0; border-top: 0; }
+.notfound { border-top: 0; min-height: 70vh; align-content: center; }
 
 /* ---------- Publications ---------- */
 .year-group + .year-group { margin-top: 2.5rem; }
